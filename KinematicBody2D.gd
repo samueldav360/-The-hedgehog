@@ -8,7 +8,7 @@ const UP = Vector2.UP
 
 var movimiento = Vector2.ZERO
 
-onready var sprite = $AnimatedSprite2D
+onready var sprite = $caminar
 
 func _physics_process(delta):
 	movimiento.y += GRAVEDAD * delta
