@@ -11,7 +11,7 @@ config_version=4
 [application]
 
 config/name="The Hedgehog"
-run/main_scene="res://Tuto.tscn"
+run/main_scene="res://Menu.tscn"
 config/icon="res://icon.png"
 
 [gui]
