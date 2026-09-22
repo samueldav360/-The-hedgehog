@@ -7,9 +7,9 @@ export var GRAVEDAD = 1200.0
 const UP = Vector2.UP
 
 var movimiento = Vector2.ZERO
+onready var mi_sprite = $fondo/Sprite2
 
 onready var sprite = $caminar
-
 func _physics_process(delta):
 	movimiento.y += GRAVEDAD * delta
 
@@ -72,3 +72,6 @@ func _on_Area2D_area_entered(area):
 func morir():
 	print("El personaje ha muerto")
 	get_tree().reload_current_scene()
+	
+
+
